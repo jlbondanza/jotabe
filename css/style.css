@@ -156,8 +156,12 @@ a:hover {
   z-index: 1;
 }
 
-#logo {
-  background: url(../images/JM_logo.png) no-repeat;
+.logo {
   height: 60px;
-  width: 100%;
+  width: 100px;
+}
+
+.logo img {
+  width: auto;
+  height: 100%;
 }
