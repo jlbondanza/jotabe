@@ -32,11 +32,6 @@ p {
   color: #565656;
 }
 
-h3 {
-  font: bold 2em/1.5em 'Helvetica', 'Arial';
-  color: Red;
-}
-
 /* Class Selector */
 .tittle-text { /* Select elements with class="milk-text" */
   font: bold 2.6em 'Elsie Swash Caps', cursive;
@@ -48,10 +43,6 @@ h3 {
   font: bold 2.6em 'Clicker Script', cursive;
   color: #d8ff00;
   text-shadow: 0 2px 3px #000;
-}
-
-#models-list, table {
-  background-color: #bdbdbd;
 }
 
 /* LINKS */
@@ -92,7 +83,6 @@ a:hover {
 
 #wrapper {
   float: right;
-	right: 70px;
 	width: 300px;
 	z-index: 2;
 }
@@ -100,7 +90,6 @@ a:hover {
 #navbar {
 	position: relative;
   bottom: 100px;
-  right: 20px;
 	padding: 60px;
   text-align: center;
   overflow: hidden;
