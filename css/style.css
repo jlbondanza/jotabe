@@ -3,13 +3,7 @@
 
 /* FIXES */
 
-html {
-    /* To make use of full height of page*/
-    min-height: 100%;
-    margin: 0;
-}
-
-body {
+html, body {
     min-height: 100%;
     margin: 0;
     background-color: #c2c2c2;
@@ -40,6 +34,8 @@ body {
 /* TEXT STYLE */
 
 h1 {
+  position: relative;
+  bottom: 90px;
   font-family: 'Helvetica','Arial';
   font-size: 1.5em;
   font-weight: bold;
@@ -281,8 +277,36 @@ img {
 /* FORM */
 
 #form {
-  position: relative;
+  position:relative;
   bottom: 60px;
+}
+
+input, textarea {
+  display: block;
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 5px #ccc;
+}
+
+input[type="submit"] {
+  margin-top: 5px;
+  width: 400px;
+  background: black;
+  color: white;
+  border-radius: 25px;
+  border: 0;
+}
+
+input[type="submit"]:hover {
+  background: #ff0030;
+}
+
+iframe {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
 
 /* VIDEO */
