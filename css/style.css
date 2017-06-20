@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900');
 @import url('https://fonts.googleapis.com/css?family=Clicker+Script');
 
-/* This is a comment! */
-
-html, body {
-  height: 100%;
-}
+/* FIXES */
 
 * {
   margin:0;
@@ -23,6 +19,10 @@ html, body {
   visibility: hidden;
   height: 0;
   line-height: 0;
+}
+
+.clear {
+  clear:both;
 }
 
 /* TEXT STYLE */
@@ -145,9 +145,9 @@ a:hover {
   text-align:center;
   display: block;
   width: 100%;
-  height: 100%;
   padding: 10px;
   background-color: #c2c2c2;
+  margin: 0 auto;
 }
 
 .col-1 {
@@ -160,8 +160,8 @@ a:hover {
 .container {
   top: 75px;
   position: relative;
-  width: 321px;
-  height:321px;
+  width: 352px;
+  height: 352px;
 }
 
 .image {
@@ -239,14 +239,6 @@ footer {
   padding-bottom: 0;
 }
 
-#foot {
-  position: relative;
-  width:100%;
-  height: 30px;
-  padding: 10px 10px;
-  background-color: #b1b1b1;
-}
-
 /* IMAGES */
 
 img {
@@ -257,4 +249,12 @@ img {
 #imgcontainer {
   position: relative;
   top: 80px;
+}
+
+/* FORM */
+
+#form {
+  position: relative;
+  width: 500px;
+  height: 500px;
 }
