@@ -233,6 +233,7 @@ a.twit:active { background-position: -80px -40px; }
 /* FOOTER */
 
 footer {
+  display: block;
   font: normal 0.6em/1.5em 'Helvetica', 'Arial';
   color: #565656;
   text-align: center;
