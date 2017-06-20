@@ -3,6 +3,18 @@
 
 /* FIXES */
 
+html {
+    /* To make use of full height of page*/
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    background-color: #c2c2c2;
+}
+
 * {
   margin:0;
   padding:0;
@@ -84,7 +96,7 @@ a:hover {
 
 /* NAVIGATION */
 
-#wrapper {
+#navwrapper {
   position: relative;
   left: 90px;
   float: right;
@@ -141,12 +153,16 @@ a:hover {
 
 /* CONTENT */
 
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+
 #content {
   text-align:center;
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #c2c2c2;
   margin: 0 auto;
 }
 
@@ -160,8 +176,8 @@ a:hover {
 .container {
   top: 75px;
   position: relative;
-  width: 352px;
-  height: 352px;
+  width: 340px;
+  height: 340px;
 }
 
 .image {
@@ -232,8 +248,18 @@ a.twit:active { background-position: -80px -40px; }
 
 /* FOOTER */
 
-footer {
+#foot {
+  position: relative;
   display: block;
+  width: 100%;
+  top: 100px;
+  height: 30px;
+  background-color: #161616;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+footer {
   font: normal 0.6em/1.5em 'Helvetica', 'Arial';
   color: #565656;
   text-align: center;
