@@ -33,7 +33,6 @@ html, body {
 
 h1 {
   position: relative;
-  top: 100px;
   font-family: 'Helvetica','Arial';
   font-size: 1.5em;
   font-weight: bold;
@@ -287,8 +286,10 @@ img {
 
 #form {
   position: relative;
-  display: block;
-  margin: 0 auto;
+  display:inline;
+  float:left;
+  margin-left: 10%;
+  margin-top: 50px;
   width: 400px;
   top: 100px;
 }
@@ -318,7 +319,10 @@ input[type="submit"]:hover {
 
 #video {
   position: relative;
-  display: block;
+  display: inline;
+  margin-right: 10%;
+  float: right;
+  width: 560px;
   top: 120px;
 }
 
