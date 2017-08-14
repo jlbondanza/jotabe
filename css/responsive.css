@@ -1,9 +1,51 @@
+@media only screen and (max-width: 1240px) {
+
+  #content2 {
+    text-align:center;
+    width: 100%;
+    min-height: 100%;
+    padding-top: 0;
+  }
+
+  #form {
+    position: relative;
+    padding-left: 20%;
+    margin-top: 0 auto;
+  }
+
+  #video {
+    width: 560px;
+    top: 120px;
+  }
+
+     }
+
+
 @media only screen and (max-width: 600px) {
 
   iframe {
     position: relative;
     width: 90%;
     height: 300px;
+  }
+
+  #content2 {
+    text-align:center;
+    width: 100%;
+    min-height: 100%;
+    padding-top: 0;
+  }
+
+  #form {
+    position: relative;
+    padding-left: 5%;
+    margin-top: 0 auto;
+  }
+
+  #video {
+    width: 460px;
+    top: 80px;
+    padding-right: 1%;
   }
     }
 
@@ -61,6 +103,27 @@
 
   table {
     bottom: 610px;
+  }
+
+  #content2 {
+    text-align:center;
+    width: 100%;
+    min-height: 100%;
+    padding-top: 0;
+  }
+
+  #form {
+    position: relative;
+    padding-left: 5%;
+    margin-top: 0 auto;
+    margin-bottom: 40px;
+    width: 300px;
+  }
+
+  #video {
+    width: 360px;
+    top: 60px;
+    padding-left: 50px;
   }
 
 }
